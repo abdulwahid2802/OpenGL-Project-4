@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0429DB8E20D0817800F25308 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429DB8D20D0817800F25308 /* main.cpp */; };
+		0429DB9620D0818700F25308 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429DB9520D0818700F25308 /* OpenGL.framework */; };
+		0429DB9820D0819100F25308 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429DB9720D0819100F25308 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		0429DB8A20D0817800F25308 /* OpenGL-TextureMapping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL-TextureMapping"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429DB8D20D0817800F25308 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0429DB9520D0818700F25308 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0429DB9720D0819100F25308 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429DB9820D0819100F25308 /* GLUT.framework in Frameworks */,
+				0429DB9620D0818700F25308 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				0429DB8C20D0817800F25308 /* OpenGL-TextureMapping */,
 				0429DB8B20D0817800F25308 /* Products */,
+				0429DB9420D0818700F25308 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				0429DB8D20D0817800F25308 /* main.cpp */,
 			);
 			path = "OpenGL-TextureMapping";
+			sourceTree = "<group>";
+		};
+		0429DB9420D0818700F25308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0429DB9720D0819100F25308 /* GLUT.framework */,
+				0429DB9520D0818700F25308 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
